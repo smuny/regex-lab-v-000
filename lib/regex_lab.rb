@@ -15,5 +15,5 @@ text.match()
 end
 
 def valid_phone_number?(phone)
-phone.scan(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/)
+phone.scan(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/) ? true : false
 end
