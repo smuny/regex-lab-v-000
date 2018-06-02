@@ -17,6 +17,7 @@ if text.scan(/^[A-Z].*[a-zA-Z][.]$/)
   return true
 else false
 end
+end
 
 def valid_phone_number?(phone)
 phone.scan(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/) ? true : false
